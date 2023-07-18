@@ -1,0 +1,53 @@
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.8em;
+    }
+    #conteudo {
+        margin: auto;
+    }
+    #cabecalho h4 {
+        margin: auto 5%;
+    }
+    #cabecalho #nav ul {
+        margin: auto 1%;
+    }
+    #conteudo {
+        border-radius: initial;
+    }
+    #conteudo .extra {
+        margin: 5% 5%;
+    }
+    #conteudo .historia iframe {
+        margin: 3% auto;
+        width: 100%;
+        height: 15.3em;
+    }
+    #rodape a:hover {
+        transition-duration: .1s;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    #conteudo {
+        margin: auto;
+    }
+    #cabecalho h4 {
+        margin: auto 10%;
+    }
+    #cabecalho #nav ul {
+        margin: auto 5%;
+    }
+    #conteudo {
+        border-radius: initial;
+    }
+    #conteudo .extra {
+        margin: 5% 5%;
+    }
+    #conteudo .historia iframe {
+        margin: 3% auto;
+        width: 100%;
+        height: 18em;
+    }
+    #rodape a:hover {
+        transition-duration: .1s;
+    }
+}

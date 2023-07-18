@@ -1,0 +1,155 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'android';
+    src: url(../fontes/idroid.otf) format(opentype);
+    text-align: justify;
+}
+
+/* A mente do site */
+
+body {
+    font: 1.5em Arial, sans-serif;
+    background-color: #84E1AD;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+/* O corpo do site */
+
+#cabecalho {
+    color: white;
+    background-image: linear-gradient(180deg, #3BD27F, #195B38);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 1%;
+}
+#cabecalho h4 {
+    color: #bcffda;
+    margin: auto 30%;
+}
+#cabecalho #nav {
+    margin-top: 3%;
+}
+#cabecalho #nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4%;
+    padding: 0;
+    margin: auto 20%;
+}
+#cabecalho #nav ul a {
+    text-decoration: none;
+    color: white;
+    transition-duration: .4s;
+    margin: auto;
+}
+#cabecalho #nav ul a:hover {
+    background-color: #bcffda;
+    color: #195B38;
+    padding: 0 3%;
+    transition-duration: .4s;
+}
+#cabecalho #nav ul a:active {
+    background-color: #195B38;
+    color: #bcffda;
+    transition-duration: .1s;
+}
+
+#conteudo {
+    background-color: white;
+    margin: 3% 10%;
+    padding: 1%;
+    border-radius: 10px;
+}
+#conteudo .historia h2, #conteudo .historia h3 {
+    font-family: 'android';
+    color: #20603D;
+    background-image: linear-gradient(90deg, #bcffda, white);
+    padding-left: 1%;
+}
+#conteudo .historia h4 {
+    text-indent: 5%;
+    margin: auto 1% 2%;
+}
+#conteudo .historia img{
+    margin: 3% auto;
+    height: auto;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+#conteudo .historia .imagem img{
+    margin: 3% auto;
+    width: 80%;
+    height: auto;
+}
+#conteudo .historia iframe {
+    margin: 3% 7.5%;
+    width: 85%;
+    height: 22em;
+}
+#conteudo .extra {
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+}
+#conteudo .extra div {
+    text-align: center;
+    background-color: #195B38;
+    color: white;
+    border-radius: 16px 5px 0 0;
+    padding: -10px;
+}
+#conteudo .extra article {
+    background-color: #bcffda;
+    border-radius: 0 0 16px 5px;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+#conteudo .extra article h4, #conteudo .extra article h5 {
+    margin: 0;
+    padding: 0;
+}
+#conteudo .extra article .lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: -2% auto;
+    gap: 1.5em;
+}
+#conteudo .extra article .lista ul {
+    list-style: none;
+    padding: 0;
+}
+#conteudo .extra article .lista ul li::before {
+    content: '\2713';
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+    color: #222;
+    margin-right: 3px;
+}
+
+#rodape {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+#rodape a{
+    text-decoration: none;
+    color: #84E1AD;
+}
+#rodape a:hover {
+    color: #3BD27F;
+    transition-duration: .4s;
+}
+#rodape a:active {
+    color: #bcffda;
+    transition-duration: .1s;
+}
