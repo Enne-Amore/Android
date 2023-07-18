@@ -27,6 +27,7 @@ html {
     background-attachment: fixed;
     text-align: center;
     padding-top: 1%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.493);
 }
 #cabecalho h4 {
     color: #bcffda;
@@ -65,6 +66,7 @@ html {
     margin: 3% 10%;
     padding: 1%;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
 }
 #conteudo .historia h2, #conteudo .historia h3 {
     font-family: 'android';
