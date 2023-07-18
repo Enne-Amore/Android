@@ -25,6 +25,10 @@
     #rodape a:hover {
         transition-duration: .1s;
     }
+    #rodape h6 {
+        margin: auto 10%;
+        padding: 2% auto;
+    }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
     #conteudo {
@@ -49,5 +53,9 @@
     }
     #rodape a:hover {
         transition-duration: .1s;
+    }
+    #rodape h6 {
+        margin: auto 10%;
+        padding: 2% auto;
     }
 }
