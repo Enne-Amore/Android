@@ -32,6 +32,9 @@
     }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
+    body {
+        font-size: 1.25em;
+    }
     #conteudo {
         margin: auto;
     }
