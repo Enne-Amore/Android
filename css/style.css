@@ -20,6 +20,7 @@ html {
 }
 
 /* O corpo do site */
+/* E o seu cabeçalho */
 
 #cabecalho {
     color: white;
@@ -60,6 +61,8 @@ html {
     color: #bcffda;
     transition-duration: .1s;
 }
+
+/* O conteúdo do site */
 
 #conteudo {
     background-color: white;
@@ -138,6 +141,8 @@ html {
     color: #222;
     margin-right: 3px;
 }
+
+/* O rodapé do site */
 
 #rodape {
     background-color: #1A5C38;
