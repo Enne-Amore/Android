@@ -18,7 +18,9 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
+strong {
+    color: #3BD27F;
+}
 /* O corpo do site */
 /* E o seu cabeçalho */
 
@@ -70,6 +72,22 @@ html {
     padding: 1%;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
+}
+#conteudo a::after {
+    content: ' \1F517';
+}
+#conteudo a {
+    color: #20603D;
+    text-decoration: none;
+    transition-duration: .6s;
+}
+#conteudo a:hover {
+    color: #84E1AD;
+    transition-duration: .6s;
+}
+#conteudo a:active {
+    color: #bcffda;
+    transition-duration: .2s;
 }
 #conteudo .historia h2, #conteudo .historia h3 {
     font-family: 'android';
