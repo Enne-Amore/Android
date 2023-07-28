@@ -2,13 +2,12 @@
     body {
         font-size: 0.8em;
     }
+    #cabecalho {
+        font-size: 1.2em;
+    }
     #cabecalho h1 {
         letter-spacing: 0.1em;
         margin: 6% auto 4%;
-    }
-    #conteudo {
-        margin: auto;
-        font-size: 1.2em;
     }
     #cabecalho h4 {
         margin: auto 5%;
@@ -18,14 +17,17 @@
         gap: 0%;
     }
     #conteudo {
+        margin: auto;
+        padding: 3%;
+        font-size: 1.2em;
         border-radius: initial;
         padding: 2%;
     }
-    #conteudo .extra {
-        margin: 5% 5%;
-    }
     #conteudo .historia .imagem.android {
         width: 90%;
+    }
+    #conteudo .extra {
+        margin: 5% 5%;
     }
     #conteudo .historia iframe {
         margin: 3% auto;
