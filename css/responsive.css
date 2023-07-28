@@ -46,6 +46,9 @@
     body {
         font-size: 1.25em;
     }
+    #cabecalho {
+        font-size: 1.2em;
+    }
     #cabecalho h1 {
         letter-spacing: 0.1em;
         font-size: 2.5em;
