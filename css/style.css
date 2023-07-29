@@ -25,9 +25,6 @@ body {
 html {
     scroll-behavior: smooth;
 }
-strong {
-    color: #3BD27F;
-}
 
 /* O corpo do site */
 /* E o seu cabeçalho */
@@ -87,6 +84,7 @@ strong {
     padding: 1%;
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
+    line-height: 2em;
 }
 #conteudo a::after {
     content: ' \1F517';
@@ -104,20 +102,26 @@ strong {
     color: #bcffda;
     transition-duration: .2s;
 }
+#conteudo .historia strong {
+    color: #195B38;
+    background-color: #bcffda;
+    padding: 0.1em;
+}
 #conteudo .historia h2, #conteudo .historia h3 {
     font-family: var(--fonte-android);
     color: #20603D;
     background-image: linear-gradient(90deg, #bcffda, white);
     padding-left: 1%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.137);
 }
 #conteudo .historia h4 {
     text-indent: 5%;
     margin: auto 1% 2%;
 }
-#conteudo .historia img{
+#conteudo .historia .imagem.android{
     margin: 3% auto;
     height: auto;
-    width: 50%;
+    max-width: 350px;
     display: flex;
     align-items: center;
 }
@@ -125,16 +129,36 @@ strong {
     margin: 3% auto;
     width: 80%;
     height: auto;
+    display: flex;
+    align-items: center;
 }
-#conteudo .historia iframe {
-    margin: 3% 7.5%;
-    width: 85%;
-    height: 22em;
+#conteudo .historia .video {
+    padding: 0.5em;
+    padding-bottom: 55%;
+    position: relative;
+    margin-bottom: 10%;
+
+}
+#conteudo .historia .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
 }
 #conteudo .extra {
     margin: 5% 10%;
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.144);
+    border-radius: 16px 5px;
+}
+#conteudo .extra strong {
+    background-color: #1A5C38;
+    color: #bcffda;
+    padding: 0.1em;
 }
 #conteudo .extra div {
     text-align: center;
