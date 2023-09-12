@@ -116,6 +116,9 @@ html {
     padding-left: 1%;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.137);
 }
+#conteudo .historia h3 {
+    font-size: 1.2em;
+}
 #conteudo .historia p {
     text-indent: 5%;
     margin: auto 1% 2%;
