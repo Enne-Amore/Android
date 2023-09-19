@@ -172,6 +172,9 @@ html {
     color: white;
     border-radius: 16px 5px 0 0;
 }
+#conteudo .extra div h3 {
+    font-size: 1.3em;
+}
 #conteudo .extra article {
     background-color: #bcffda;
     border-radius: 0 0 16px 5px;

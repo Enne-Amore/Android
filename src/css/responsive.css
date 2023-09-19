@@ -29,14 +29,19 @@
         font-size: 1.3em;
     }
 
-    #conteudo .historia iframe {
-        margin: 3% auto;
+    #conteudo .historia .video {
+        margin: 5% auto 15%;
+    }
+    #conteudo .historia .video iframe {
         width: 100%;
-        height: 18em;
+        height: 52vw;
     }
     
     #conteudo .extra {
         margin: 8% 2%;
+    }
+    #conteudo .extra div h3 {
+        font-size: 1.4em;
     }
     #conteudo .extra article .lista {
         columns: 1;
@@ -81,13 +86,21 @@
     #conteudo p {
         font-size: 1.3em;
     }
-    #conteudo .extra {
-        margin: 5% 5%;
+    
+    #conteudo .historia .video {
+        margin-bottom: 13%;
     }
     #conteudo .historia iframe {
         margin: 3% auto;
         width: 100%;
         height: 18em;
+    }
+
+    #conteudo .extra {
+        margin: 5%;
+    }
+    #conteudo .extra div h3 {
+        font-size: 1.6em;
     }
 
     #rodape a:hover {
