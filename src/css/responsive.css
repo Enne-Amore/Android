@@ -103,6 +103,10 @@
         font-size: 1.6em;
     }
 
+    
+    #rodape #topo {
+        font-size: 3em;
+    }
     #rodape a:hover {
         transition-duration: .1s;
     }

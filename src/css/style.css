@@ -61,13 +61,15 @@ html {
 #cabecalho #nav ul a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
     transition-duration: .4s;
     margin: auto;
+    padding: 3% 0;
 }
 #cabecalho #nav ul a:hover {
     background-color: #bcffda;
     color: #195B38;
-    padding: 0 3%;
+    padding: 3%;
     transition-duration: .4s;
 }
 #cabecalho #nav ul a:active {
@@ -209,9 +211,26 @@ html {
     background-color: #1A5C38;
     color: white;
     text-align: center;
-    padding: 1%;
+    padding: 1.5% 1% 1%;
 }
-#rodape a{
+
+#rodape #topo {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.315);
+    font-size: 2em;
+    transition-duration: .4s;
+}
+#rodape #topo:hover {
+    background-color: white;
+    color: #195B38;
+}
+#rodape #topo:active {
+    background-color: #84E1AD;
+    color: white;
+    transition-duration: .2s;
+}
+
+#rodape a {
     text-decoration: none;
     color: #84E1AD;
 }
