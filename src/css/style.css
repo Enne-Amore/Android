@@ -211,13 +211,14 @@ html {
     background-color: #1A5C38;
     color: white;
     text-align: center;
-    padding: 1.5% 1% 1%;
+    padding: 1.5% 4% 1%;
 }
 
 #rodape #topo {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.315);
     font-size: 2em;
+    padding: 0.5%;
     transition-duration: .4s;
 }
 #rodape #topo:hover {

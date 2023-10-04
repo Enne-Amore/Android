@@ -48,6 +48,13 @@
         font-size: 1.2em;
     }
 
+    #rodape {
+        padding: 1.5% 1% 1%;
+    }
+    #rodape #topo {
+        font-size: 3em;
+        margin-top: 2.5%;
+    }
     #rodape a:hover {
         transition-duration: .1s;
     }
@@ -103,7 +110,9 @@
         font-size: 1.6em;
     }
 
-    
+    #rodape {
+        padding: 1.5% 1% 1%;
+    }
     #rodape #topo {
         font-size: 3em;
     }
