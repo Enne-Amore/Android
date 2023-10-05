@@ -17,6 +17,12 @@
         margin: auto 2%;
         gap: 0%;
     }
+    #cabecalho #nav ul a {
+        padding: 6% 0;
+    }
+    #cabecalho #nav ul a:hover {
+        padding: 6% 3%;
+    }
 
     #conteudo {
         margin: auto;

@@ -44,7 +44,7 @@ html {
     font-size: 2.2em;
     margin: 2% auto;
 }
-#cabecalho h4 {
+#cabecalho p {
     color: #bcffda;
     margin: auto 25%;
 }
@@ -60,6 +60,8 @@ html {
 }
 #cabecalho #nav ul a {
     text-decoration: none;
+    text-shadow: none;
+    font-size: 1.2em;
     color: white;
     font-weight: bolder;
     transition-duration: .4s;
@@ -67,14 +69,14 @@ html {
     padding: 3% 0;
 }
 #cabecalho #nav ul a:hover {
-    background-color: #bcffda;
-    color: #195B38;
+    background-color: #84E1AD;
+    color: white;
     padding: 3%;
     transition-duration: .4s;
 }
 #cabecalho #nav ul a:active {
-    background-color: #195B38;
-    color: #bcffda;
+    background-color: #3BD27F;
+    color: white;
     transition-duration: .1s;
 }
 
@@ -222,11 +224,11 @@ html {
     transition-duration: .4s;
 }
 #rodape #topo:hover {
-    background-color: white;
-    color: #195B38;
+    background-color: #84E1AD;
+    color: white;
 }
 #rodape #topo:active {
-    background-color: #84E1AD;
+    background-color: #3BD27F;
     color: white;
     transition-duration: .2s;
 }
