@@ -5,3 +5,10 @@ const topo = document.getElementById('topo')
 topo.addEventListener("click", function(){
     window.scrollTo(0, 0)
 })
+
+// Voltar ao topo usando o teclado
+topo.addEventListener('keypress', (tecla) => {
+    if (tecla.key === "Enter") {
+        tecla.target.click()
+    }
+})
