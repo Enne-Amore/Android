@@ -14,6 +14,9 @@
     --fonte-destaque: 'Bebas Neue', sans-serif;
     --fonte-android: 'android';
 }
+:focus {
+    outline: 0;
+}
 body {
     font: 1.7em var(--fonte-padrao);
     background-color: #84E1AD;
@@ -68,7 +71,8 @@ html {
     margin: auto;
     padding: 3% 0;
 }
-#cabecalho #nav ul a:hover {
+#cabecalho #nav ul a:hover,
+#cabecalho #nav ul a:focus-visible {
     background-color: #84E1AD;
     color: white;
     padding: 3%;
@@ -90,6 +94,7 @@ html {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
     line-height: 2em;
 }
+
 #conteudo a::after {
     content: ' \1F517';
 }
@@ -98,7 +103,11 @@ html {
     text-decoration: none;
     transition-duration: .4s;
 }
-#conteudo a:hover {
+#conteudo a:focus-visible {
+    outline: auto;
+}
+#conteudo a:hover,
+#conteudo a:focus-visible {
     color: #84E1AD;
     transition-duration: .4s;
 }
@@ -223,7 +232,8 @@ html {
     padding: 0.5%;
     transition-duration: .4s;
 }
-#rodape #topo:hover {
+#rodape #topo:hover,
+#rodape #topo:focus-visible {
     background-color: #84E1AD;
     color: white;
 }
@@ -237,7 +247,11 @@ html {
     text-decoration: none;
     color: #84E1AD;
 }
-#rodape a:hover {
+#rodape a:focus-visible {
+    outline: auto;
+}
+#rodape a:hover,
+#rodape a:focus-visible {
     color: #3BD27F;
     transition-duration: .4s;
 }
@@ -245,6 +259,7 @@ html {
     color: #bcffda;
     transition-duration: .1s;
 }
+
 #rodape p {
     line-height: 1.5em;
 }
