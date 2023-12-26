@@ -1,5 +1,5 @@
 
-# 🌸 Meu Portfólio
+# 📱 Android
 
-Um site web que fala sobre mim mesme, minhas criações, inspirações e apreço pela diversidade.
+Um desafio proposto por Gustavo Guanabara de fazer um site usando HTML e CSS, estilizando e responsivando-o.
 
