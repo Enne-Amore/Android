@@ -1,27 +1,28 @@
 
 # 📱 Android
 
-Um desafio proposto por Gustavo Guanabara de fazer um site usando HTML e CSS, estilizando e responsivando-o. Possui a história do mascote do Android como o conteúdo principal, além de mostrar um vídeo já postado no youtube e um conteúdo extra.
-
-
-## ✅ Demonstração
-
-[Clique aqui para acessar o meu site](https://enne-amore.github.io/Android/)
-
-
-## 🚀 Tecnologias Utilizadas
-
-- HTML
-- CSS
-- JavaScript
+ Um desafio proposto por Gustavo Guanabara de fazer um site usando HTML e CSS, estilizando e responsivando-o. Possui a história do mascote do Android como o conteúdo principal, além de mostrar um vídeo já postado no youtube e um conteúdo extra.
 
 
 ## 🪄 Funcionalidades
 
-- Barra horizontal de navegação por dentro da página
-- Mais acessibilidade usando a tecla "tab"
-- Efeitos de "hover" e de "active" nos elementos clicáveis
-- Botão de voltar ao topo da página
+ - Barra horizontal de navegação por dentro da página
+ - Mais acessibilidade usando a tecla "tab"
+ - Efeitos de "hover" e de "active" nos elementos clicáveis
+ - Botão de voltar ao topo da página
+
+
+## ✅ Demonstração
+
+ [Clique aqui para acessar o meu site](https://enne-amore.github.io/Android/)
+
+
+## 🚀 Tecnologias Utilizadas
+
+ - HTML
+ - CSS
+ - JavaScript
+
 
 ## 🌈 Documentação De Cores
 
@@ -47,4 +48,4 @@ Um desafio proposto por Gustavo Guanabara de fazer um site usando HTML e CSS, es
 
 ## 🔧 Suporte
 
-Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
+ Para me contatar como suporte, o meu email é EnneFofe10@gmail.com 
