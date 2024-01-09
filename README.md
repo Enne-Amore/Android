@@ -31,9 +31,7 @@
 | Verde Clara 1       | ![#bcffda](https://via.placeholder.com/10/bcffda?text=+) #bcffda |
 | Verde Clara 2       | ![#84E1AD](https://via.placeholder.com/10/84E1AD?text=+) #84E1AD |
 | Verde Neutra        | ![#3BD27F](https://via.placeholder.com/10/3BD27F?text=+) #3BD27F |
-| Verde Escura 1      | ![#195B38](https://via.placeholder.com/10/195B38?text=+) #195B38 |
-| Verde Escura 2      | ![#20603D](https://via.placeholder.com/10/20603D?text=+) #20603D |
-| Verde Escura 3      | ![#1A5C38](https://via.placeholder.com/10/1A5C38?text=+) #1A5C38 |
+| Verde Escura        | ![#195B38](https://via.placeholder.com/10/195B38?text=+) #195B38 |
 | Cinza Escura        | ![#222222](https://via.placeholder.com/10/222222?text=+) #222222 |
 
 

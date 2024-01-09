@@ -32,7 +32,7 @@
         padding: 2%;
     }
     #conteudo p {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     #conteudo .historia .video {
@@ -49,9 +49,12 @@
     #conteudo .extra div h3 {
         font-size: 1.4em;
     }
+    #conteudo .extra article {
+        padding: 3% 5%;
+    }
     #conteudo .extra article .lista {
         columns: 1;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     #rodape {
@@ -114,6 +117,9 @@
     }
     #conteudo .extra div h3 {
         font-size: 1.6em;
+    }
+    #conteudo .extra article {
+        padding: 3% 4%;
     }
 
     #rodape {

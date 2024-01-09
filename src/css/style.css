@@ -13,13 +13,19 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
     --fonte-android: 'android';
+
+    --verde-clara-1: #bcffda;
+    --verde-clara-2: #84E1AD;
+    --verde-neutra: #3BD27F;
+    --verde-escura: #195B38;
+    --cinza-escura: #222222;
 }
 :focus {
     outline: 0;
 }
 body {
     font: 1.7em var(--fonte-padrao);
-    background-color: #84E1AD;
+    background-color: var(--verde-clara-2);
     margin: 0;
     max-width: 100%;
     height: auto;
@@ -34,7 +40,7 @@ html {
 
 #cabecalho {
     color: white;
-    background-image: linear-gradient(180deg, #3BD27F, #195B38);
+    background-image: linear-gradient(180deg, var(--verde-neutra), var(--verde-escura));
     height: 100%;
     text-align: center;
     padding-top: 1%;
@@ -48,7 +54,7 @@ html {
     margin: 2% auto;
 }
 #cabecalho p {
-    color: #bcffda;
+    color: var(--verde-clara-1);
     margin: auto 25%;
 }
 #cabecalho #nav {
@@ -73,13 +79,13 @@ html {
 }
 #cabecalho #nav ul a:hover,
 #cabecalho #nav ul a:focus-visible {
-    background-color: #84E1AD;
+    background-color: var(--verde-clara-2);
     color: white;
     padding: 3%;
     transition-duration: .4s;
 }
 #cabecalho #nav ul a:active {
-    background-color: #3BD27F;
+    background-color: var(--verde-neutra);
     color: white;
     transition-duration: .1s;
 }
@@ -99,33 +105,34 @@ html {
     content: ' \1F517';
 }
 #conteudo a {
-    color: #20603D;
+    color: var(--verde-escura);
     text-decoration: none;
     transition-duration: .4s;
 }
 #conteudo a:focus-visible {
     outline: auto;
+    padding: 0.1em;
 }
 #conteudo a:hover,
 #conteudo a:focus-visible {
-    color: #84E1AD;
+    color: var(--verde-clara-2);
     transition-duration: .4s;
 }
 #conteudo a:active {
-    color: #bcffda;
+    color: var(--verde-clara-1);
     transition-duration: .2s;
 }
 
 #conteudo .historia strong {
-    color: #195B38;
-    background-color: #bcffda;
+    color: var(--verde-escura);
+    background-color: var(--verde-clara-1);
     padding: 0.1em;
 }
 #conteudo .historia h2, #conteudo .historia h3 {
     font-family: var(--fonte-android);
     text-align: left;
-    color: #20603D;
-    background-image: linear-gradient(90deg, #bcffda, white);
+    color: var(--verde-escura);
+    background-image: linear-gradient(90deg, var(--verde-clara-1), white);
     padding-left: 1%;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.137);
 }
@@ -175,13 +182,13 @@ html {
     border-radius: 16px 5px;
 }
 #conteudo .extra strong {
-    background-color: #1A5C38;
-    color: #bcffda;
+    background-color: var(--verde-escura);
+    color: var(--verde-clara-1);
     padding: 0.1em;
 }
 #conteudo .extra div {
     text-align: center;
-    background-color: #195B38;
+    background-color: var(--verde-escura);
     color: white;
     border-radius: 16px 5px 0 0;
 }
@@ -189,7 +196,7 @@ html {
     font-size: 1.3em;
 }
 #conteudo .extra article {
-    background-color: #bcffda;
+    background-color: var(--verde-clara-1);
     border-radius: 0 0 16px 5px;
     padding: 3%;
     display: flex;
@@ -212,14 +219,14 @@ html {
     left: 0;
     top: 0;
     font-size: 100%;
-    color: #222222;
+    color: var(--cinza-escura);
     margin-right: 3px;
 }
 
 /* O rodapé do site */
 
 #rodape {
-    background-color: #1A5C38;
+    background-color: var(--verde-escura);
     color: white;
     text-align: center;
     padding: 1.5% 4% 1%;
@@ -234,30 +241,30 @@ html {
 }
 #rodape #topo:hover,
 #rodape #topo:focus-visible {
-    background-color: #84E1AD;
+    background-color: var(--verde-clara-2);
     color: white;
 }
 #rodape #topo:active {
-    background-color: #3BD27F;
+    background-color: var(--verde-neutra);
     color: white;
     transition-duration: .2s;
 }
 
 #rodape a {
     text-decoration: none;
-    color: #84E1AD;
+    color: var(--verde-clara-2);
+    transition-duration: .2s;
 }
 #rodape a:focus-visible {
     outline: auto;
+    padding: 0.1em;
 }
 #rodape a:hover,
 #rodape a:focus-visible {
-    color: #3BD27F;
-    transition-duration: .4s;
+    color: var(--verde-neutra);
 }
 #rodape a:active {
-    color: #bcffda;
-    transition-duration: .1s;
+    color: var(--verde-clara-1);
 }
 
 #rodape p {
