@@ -26,10 +26,13 @@
 
     #conteudo {
         margin: auto;
-        padding: 3%;
         font-size: 1.3em;
         border-radius: initial;
-        padding: 2%;
+        padding: 2% 4%;
+    }
+    #conteudo .historia h2,
+    #conteudo .historia h3 {
+        margin: 4% 0;
     }
     #conteudo p {
         font-size: 1.1em;
@@ -58,17 +61,17 @@
     }
 
     #rodape {
-        padding: 1.5% 1% 1%;
+        padding: 1em;
     }
     #rodape #topo {
         font-size: 3em;
-        margin-top: 2.5%;
+        margin: 2.5% auto 3.5%;
     }
     #rodape a:hover {
         transition-duration: .1s;
     }
     #rodape p {
-        margin: 3% 5%;
+        margin: 0% 5%;
         padding: 2% 0;
         font-size: 1.2em;
     }
@@ -97,7 +100,12 @@
     #conteudo {
         margin: auto;
         border-radius: initial;
-        padding: 2%;
+        padding: 2% 3%;
+    }
+
+    #conteudo .historia h2,
+    #conteudo .historia h3 {
+        margin: 3% 0;
     }
     #conteudo p {
         font-size: 1.3em;
@@ -123,16 +131,17 @@
     }
 
     #rodape {
-        padding: 1.5% 1% 1%;
+        padding: 1em;
     }
     #rodape #topo {
         font-size: 3em;
+        margin: 2.5% auto 3.5%;
     }
     #rodape a:hover {
         transition-duration: .1s;
     }
     #rodape p {
-        margin: auto 10%;
+        margin: 0% 5%;
         padding: 2% 0;
         font-size: 1.2em;
     }
