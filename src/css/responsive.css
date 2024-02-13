@@ -1,4 +1,7 @@
-@media screen and (max-width: 600px) {
+@charset "UTF-8";
+
+/* Dispositivos em pé */
+@media screen and (max-width: 1200px) and (orientation: portrait) {
     body {
         font-size: 3.5vw;
     }
@@ -76,73 +79,36 @@
         font-size: 1.2em;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+
+/* Dispositivos deitados */
+@media screen and (max-width: 1200px) and (orientation: landscape) {
     body {
-        font-size: 1.25em;
+        font-size: 3vw;
     }
 
-    #cabecalho {
-        font-size: 1.2em;
-    }
-    #cabecalho h1 {
-        letter-spacing: 0.1em;
-        font-size: 2.5em;
-        margin: 3.5% auto 2%;
-    }
     #cabecalho p {
-        margin: auto 10%;
+        margin: auto 5%;
     }
     #cabecalho #nav ul {
         margin: auto 5%;
-        gap: 0;
     }
 
     #conteudo {
         margin: auto;
         border-radius: initial;
-        padding: 2% 3%;
+        padding: 4% 5%;
     }
-
-    #conteudo .historia h2,
-    #conteudo .historia h3 {
-        margin: 3% 0;
-    }
-    #conteudo p {
-        font-size: 1.3em;
-    }
-    
     #conteudo .historia .video {
-        margin-bottom: 13%;
+        padding-bottom: 54.6%;
+        margin: 1em auto -1em;
     }
-    #conteudo .historia iframe {
-        margin: 3% auto;
-        width: 100%;
-        height: 18em;
-    }
-
-    #conteudo .extra {
-        margin: 5%;
-    }
-    #conteudo .extra div h3 {
-        font-size: 1.6em;
-    }
-    #conteudo .extra article {
-        padding: 3% 4%;
+    #conteudo .historia .video iframe {
+        width: 95%;
+        height: 95%;
+        margin: 0 auto;
     }
 
-    #rodape {
-        padding: 1em;
-    }
     #rodape #topo {
-        font-size: 3em;
-        margin: 2.5% auto 3.5%;
-    }
-    #rodape a:hover {
-        transition-duration: .1s;
-    }
-    #rodape p {
-        margin: 0% 5%;
-        padding: 2% 0;
-        font-size: 1.2em;
+        font-size: 2.8em;
     }
 }
